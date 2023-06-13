@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Mortal Combat by POiZN"
+})
+
+<body>
+    <div class="preloader">
+        <img src="@img/preload-img.gif" alt="" class="preloader__image">
+        <p class="preloader__text">LOADING...</p>
+    </div>
+    @@include('html/header.html',{})
+    @@include('html/buttons.html',{})
+    @@include('html/section.html',{})
+    <p class="time"></p>
+    <p class="end"></p>
+
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
